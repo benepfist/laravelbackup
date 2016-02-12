@@ -1,0 +1,44 @@
+{
+    "name": "benepfist/laravelbackup",
+    "type": "library",
+    "description": ":package_description",
+    "keywords": [
+        "benepfist",
+        "laravelbackup"
+    ],
+    "homepage": "https://github.com/benepfist/laravelbackup",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Benedict Pfisterer",
+            "email": "pfisterer.bene@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : "~5.5|~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "4.*",
+        "Mockery/Mockery": "^0.9.4",
+        "laravel/framework": "^5.2",
+        "illuminate/support": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "benepfist\\laravelbackup\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "benepfist\\laravelbackup\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
